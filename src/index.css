@@ -1,0 +1,68 @@
+:root {
+  --bg: #f4f8f9;
+  --surface: #ffffff;
+  --surface-alt: #eaf2f4;
+  --text: #1f2a33;
+  --text-soft: #48606c;
+  --line: #c8d8df;
+  --brand: #0e596e;
+  --brand-strong: #094456;
+  --accent: #198c88;
+  --focus: #0b7ac2;
+  --shadow: 0 18px 35px rgba(8, 35, 56, 0.1);
+
+  --font-body: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --font-heading: 'Fraunces', 'Georgia', serif;
+
+  --container: min(1120px, calc(100% - 2rem));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--text);
+  background:
+    radial-gradient(circle at 15% 10%, rgba(25, 140, 136, 0.18), transparent 44%),
+    radial-gradient(circle at 85% 0%, rgba(11, 122, 194, 0.12), transparent 38%),
+    var(--bg);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-heading);
+  color: #13202b;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--brand);
+  text-underline-offset: 0.2em;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
