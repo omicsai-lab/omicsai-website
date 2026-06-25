@@ -15,11 +15,11 @@ export const projectLinks = [
     href: 'https://github.com/omicsai-lab/agentic-causal',
   },
   {
-    title: 'LangGraph Orchestrator',
+    title: 'OmicsGPT',
     summary:
-      'Open repository for orchestration patterns and infrastructure components aligned with OmicsAI projects.',
+      'OmicsGPT is a multi-agent omics analysis and precision oncology platform for biomedical AI research.',
     href: 'https://github.com/omicsai-lab/LangGraph_Orchestrator',
-    demoHref: 'https://langgraph.omicsai.org',
+    demoHref: 'https://omicsai.org/OmicsGPT/',
   },
 ]
 

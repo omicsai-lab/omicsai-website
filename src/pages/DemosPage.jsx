@@ -26,11 +26,11 @@ function DemosPage() {
             <p>Agentic causal analysis workflow for biomedical research.</p>
           </Card>
           <Card
-            title="LangGraph Orchestrator"
+            title="OmicsGPT"
             footer={
               <a
                 className="button button-primary"
-                href="https://langgraph.omicsai.org"
+                href="https://omicsai.org/OmicsGPT/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
