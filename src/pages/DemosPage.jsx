@@ -11,15 +11,34 @@ function DemosPage() {
       >
         <div className="grid two-up">
           <Card
-            title="Agentic-Causal Demo"
-            footer={<a href="/agentic-causal/">Launch Agentic-Causal Demo</a>}
+            title="Agentic-Causal"
+            footer={
+              <a
+                className="button button-primary"
+                href="https://omicsai.org/agentic-causal/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Launch Demo
+              </a>
+            }
           >
-            <p>
-              This demo is served at the /agentic-causal/ path through production infrastructure.
-            </p>
+            <p>Agentic causal analysis workflow for biomedical research.</p>
           </Card>
-          <Card title="Additional Demo Slots">
-            <p>Future demonstrations will appear here after verification and publication.</p>
+          <Card
+            title="LangGraph Orchestrator"
+            footer={
+              <a
+                className="button button-primary"
+                href="https://langgraph.omicsai.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Launch Demo
+              </a>
+            }
+          >
+            <p>Multi-agent omics analysis and precision oncology workflow.</p>
           </Card>
         </div>
       </Section>

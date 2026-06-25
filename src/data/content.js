@@ -19,6 +19,7 @@ export const projectLinks = [
     summary:
       'Open repository for orchestration patterns and infrastructure components aligned with OmicsAI projects.',
     href: 'https://github.com/omicsai-lab/LangGraph_Orchestrator',
+    demoHref: 'https://langgraph.omicsai.org',
   },
 ]
 

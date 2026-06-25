@@ -47,9 +47,6 @@ function Header() {
               </li>
             ))}
           </ul>
-          <a className="demo-cta" href="/agentic-causal/">
-            Launch Agentic-Causal Demo
-          </a>
         </nav>
       </div>
     </header>

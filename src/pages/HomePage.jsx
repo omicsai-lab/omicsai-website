@@ -16,9 +16,6 @@ function HomePage() {
               Verified project and team details will be added as they are confirmed.
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="/agentic-causal/">
-                Launch Agentic-Causal Demo
-              </a>
               <a
                 className="button button-ghost"
                 href="https://github.com/omicsai-lab"
